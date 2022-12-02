@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "miningfix",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Mining Fix",
+  "description": "This mod fixes a crash when mining blocks too fast in creative mode.",
   "authors": [
     "Turnip Labs"
   ],
@@ -18,11 +18,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-        "turniplabs.examplemod.ExampleMod"
+        "turniplabs.miningfix.MiningFix"
     ]
   },
   "mixins": [
-      "examplemod.mixins.json"
+      "miningfix.mixins.json"
   ],
 
   "depends": {
